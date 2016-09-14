@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Toaster.ma
-//Last modified: Wed, Sep 14, 2016 12:20:47 PM
+//Last modified: Wed, Sep 14, 2016 12:22:54 PM
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -83,7 +83,7 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.609375 0.109375 ;
+	setAttr ".pv" -type "double2" 0.453125 0.171875 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
@@ -227,15 +227,15 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr ".pt[295]" -type "float3" 0 0.022229079 0 ;
 	setAttr ".pt[296]" -type "float3" 0 0.034528118 0 ;
 	setAttr ".pt[297]" -type "float3" 0 0.041154083 0 ;
-	setAttr ".pt[298]" -type "float3" 0 0.041154083 0 ;
-	setAttr ".pt[299]" -type "float3" 0 0.041154083 0 ;
+	setAttr ".pt[298]" -type "float3" -0.043289356 0.041154083 0 ;
+	setAttr ".pt[299]" -type "float3" -0.043289356 0.041154083 0 ;
 	setAttr ".pt[300]" -type "float3" 0 0.034528118 0 ;
 	setAttr ".pt[301]" -type "float3" 0 0.022229079 0 ;
 	setAttr ".pt[302]" -type "float3" 0 0.045603 0 ;
 	setAttr ".pt[303]" -type "float3" 0 0.081717625 0 ;
 	setAttr ".pt[304]" -type "float3" 0 0.090328731 0 ;
-	setAttr ".pt[305]" -type "float3" 0 0.090328731 0 ;
-	setAttr ".pt[306]" -type "float3" 0 0.090328731 0 ;
+	setAttr ".pt[305]" -type "float3" -0.043289356 0.090328731 0 ;
+	setAttr ".pt[306]" -type "float3" -0.043289356 0.090328731 0 ;
 	setAttr ".pt[307]" -type "float3" 0 0.081717625 0 ;
 	setAttr ".pt[308]" -type "float3" 0 0.045603 0 ;
 	setAttr ".pt[309]" -type "float3" 0 0.079264514 0 ;
