@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Toaster.ma
-//Last modified: Wed, Sep 14, 2016 12:22:54 PM
+//Last modified: Wed, Sep 14, 2016 12:35:45 PM
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "1F315E7F-FC42-9461-5132-7A8ACEEA07F1";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 7.0422774843657452 3.6459011861410202 6.56702999493774 ;
-	setAttr ".r" -type "double3" -20.738352729637878 47.00000000000005 4.6635811282186264e-15 ;
+	setAttr ".t" -type "double3" 12.641262599199196 9.7149125644124172 0.22065405944515573 ;
+	setAttr ".r" -type "double3" -37.538352729634234 88.999999999991147 1.8224161194416857e-13 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "AE85288F-2749-8577-956B-0D82546F2A27";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 10.296220208421815;
+	setAttr ".coi" 15.94458323224603;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
