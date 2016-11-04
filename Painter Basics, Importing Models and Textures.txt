@@ -1,0 +1,37 @@
+PBR -
+A method of shading and rendering that provide a more accurate representation of how light interacts with surfaces.
+
+Benifits:
+1. Easier to create realistic assets
+2. Assets will lookaccurate in all lighting conditions
+3. Provides a workflow
+
+PBR - Workflows
+Metallic/Roughness
+Specualar/Glossiness
+Height - Excensuate the bumbiness of a matierial
+
+Metallic:
+-Base color = diffuse reflected color and metal relectance
+	- Known data value
+-Metal map acts as a mask to denote raw metal
+	- Acts as a mask, tells shader which portion of matieral is metal
+-Dielectric (non-metal) F0 (4%) hardcoded in shader
+	- Is at 4% because it is the most common matierial in real life.
+-Roughness- prevents light reflecting smoothly.
+
+Ask yourself two questions:
+Metal or non-metal?
+
+Substance Painter: Creating PBR maps. Using Metal/Rough
+
+Video 2:
+
+Uploading a mesh on Painter,
+you can access a UV layout where you can change your mesh. 
+
+
+
+
+
+
